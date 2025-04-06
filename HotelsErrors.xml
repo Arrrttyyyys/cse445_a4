@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="Hotels.xsd">
-       
-  <!--Error 1 -->
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
+  <!-- Error 1 -->
   <Hotel>
     <Name>Broken Hotel</Name>
     <Phone>123-456-7890</Phone>
@@ -14,11 +13,11 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Rating>4.5</Rating>
+    <Rating>4.5</Rating> 
   </Hotel>
 
-  <Hotel>
-    <!--Error 2-->
+  <!-- Error 2 -->
+  <Hotel Rating="3.9">
     <Phone>999-000-1234</Phone>
     <Address NearstAirport="Sky Habor International Airport">
       <Number>999</Number>
@@ -27,12 +26,11 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Rating>3.9</Rating>
   </Hotel>
 
-  <Hotel>
+  <!-- Error 3-->
+  <Hotel Rating="3.8">
     <Name>Missing Phone</Name>
-    <!--Error 3-->
     <Address NearstAirport="Sky Habor International Airport">
       <Number>555</Number>
       <Street>Error Rd</Street>
@@ -40,10 +38,10 @@
       <State>AZ</State>
       <Zip>85001</Zip>
     </Address>
-    <Rating>3.8</Rating>
   </Hotel>
 
-  <Hotel>
+  <!-- Error 4 -->
+  <Hotel Rating="4.0">
     <Name>Address Not Closed</Name>
     <Phone>999-888-7777</Phone>
     <Address NearstAirport="Sky Habor International Airport">
@@ -52,22 +50,20 @@
       <City>Glendale</City>
       <State>AZ</State>
       <Zip>85301</Zip>
-    <!--Error 4-->
   </Hotel>
 
-  <Hotel>
-    <!--Error 5-->
+  <!--Error 5:-->
+  <Hotel Rating="4.1">
     <Name>Duplicate Name 1</Name>
     <Name>Duplicate Name 2</Name>
     <Phone>222-333-4444</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor International Airport">
       <Number>789</Number>
       <Street>Conflict Blvd</Street>
       <City>Mesa</City>
       <State>AZ</State>
       <Zip>85201</Zip>
     </Address>
-    <Rating>4.1</Rating>
   </Hotel>
 
-</Hotel>
+</Hotels>
