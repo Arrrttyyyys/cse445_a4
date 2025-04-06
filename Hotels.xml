@@ -49,7 +49,6 @@
       <State>AZ</State>
       <Zip>85210</Zip>
     </Address>
-    <Rating>4.1</Rating>
   </Hotel>
 
   <Hotel Rating ="4.3">
@@ -98,7 +97,6 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Rating>4.2</Rating>
   </Hotel>
 
   <Hotel Rating ="4.0">
@@ -123,7 +121,6 @@
       <State>AZ</State>
       <Zip>85210</Zip>
     </Address>
-    <Rating>4.3</Rating>
   </Hotel>
 
 </Hotels>
