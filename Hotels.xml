@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Address NearestAirport="Sky Habor International Airport">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.3</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Marriott</Name>
+    <Phone>602-225-9000</Phone>
+    <Address>
+      <Number>2000</Number>
+      <Street>W Westcourt Way</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+    <Rating>4.3</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hilton Garden Inn</Name>
+    <Phone> 480-968-2180 </Phone>
+    <Address NearestAirport="Sky Habor International Airport">
+      <Number>86</Number>
+      <Street>S Rockford Drive</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Holiday Inn</Name>
+    <Phone> 480-964-7000 </Phone>
+    <Phone>800-555-9999</Phone>
+    <Address>
+      <Number>1600</Number>
+      <Street>S Country Club Drive</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85210</Zip>
+    </Address>
+    <Rating>4.1</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hyatt Place</Name>
+    <Phone> 480-207-1578 </Phone>
+    <Address NearestAirport="Sky Habor International Airport">
+      <Number>601</Number>
+      <Street>E 6th St, </Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Comfort Suites</Name>
+    <Phone>623-271-9005</Phone>
+    <Address>
+      <Number>9824</Number>
+      <Street>W Camelback Rd</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85305</Zip>
+    </Address>
+  </Hotel>  
+
+  <Hotel>
+    <Name>Fairmont</Name>
+    <Phone>623-222-1111</Phone>
+    <Address>
+      <Number>98</Number>
+      <Street>Resort Way</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Moxy</Name>
+    <Phone>480-968-3451</Phone>
+    <Address>
+      <Number>1333</Number>
+      <Street>S Rural Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Scottsdale Parkview Resort</Name>
+    <Phone>480-941-1202</Phone>
+    <Address>
+      <Number>7707</Number>
+      <Street>E McDowell Rd,</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85257</Zip>
+    </Address>
+    <Rating>4.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Double tree by Hilton</Name>
+    <Phone>480-833-5555</Phone>
+    <Address>
+      <Number>1011</Number>
+      <Street>W Holmes Ave</Street>
+      <City>Mesa</C
