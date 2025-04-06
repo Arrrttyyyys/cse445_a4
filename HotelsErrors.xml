@@ -7,7 +7,7 @@
   <Hotel>
     <Name>Broken Hotel</Name>
     <Phone>123-456-7890</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor International Airport">
       <Number>123</Number>
       <Street>Broken St</Street>
       <City>Tempe</City>
@@ -20,7 +20,7 @@
   <Hotel>
     <!--Error 2-->
     <Phone>999-000-1234</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor International Airport">
       <Number>999</Number>
       <Street>Nameless Blvd</Street>
       <City>Tempe</City>
@@ -33,7 +33,7 @@
   <Hotel>
     <Name>Missing Phone</Name>
     <!--Error 3-->
-    <Address>
+    <Address NearstAirport="Sky Habor International Airport">
       <Number>555</Number>
       <Street>Error Rd</Street>
       <City>Phoenix</City>
@@ -46,7 +46,7 @@
   <Hotel>
     <Name>Address Not Closed</Name>
     <Phone>999-888-7777</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor International Airport">
       <Number>789</Number>
       <Street>Crash Ave</Street>
       <City>Glendale</City>
@@ -56,4 +56,18 @@
   </Hotel>
 
   <Hotel>
-    <!--Err
+    <!--Error 5-->
+    <Name>Duplicate Name 1</Name>
+    <Name>Duplicate Name 2</Name>
+    <Phone>222-333-4444</Phone>
+    <Address>
+      <Number>789</Number>
+      <Street>Conflict Blvd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+    <Rating>4.1</Rating>
+  </Hotel>
+
+</Hotel>
